@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copia el fitxer JAR al contenidor
-COPY build/libs/*.jar app.jar
+COPY build/libs/demoTardana-0.0.1-SNAPSHOT.jar app.jar
 
 # Exposa el port en què correrà l'aplicació
 EXPOSE 8080
