@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Pàgina Home</title>
+</head>
+<body>
+<h1>Benvingut a la pàgina Home</h1>
+
+<!-- Botó per mostrar el missatge -->
+<button id="myButton">Fes clic aquí</button>
+
+<!-- Contenidor on es mostrarà el nou element amb el missatge -->
+<div id="messageContainer"></div>
+
+<script th:inline="javascript">
+    // Carrega el missatge del servidor en una variable de JavaScript
+    let message = /*[[${message}]]*/ "";
+
+    // Afegeix un event listener per al botó
+    document.addEventListener("DOMContentLoaded", function () {
+        const button = document.getElementById("myButton");
+        button.addEventListener("click", function () {
+            console.log(message); // Imprimeix el missatge a la consola
+            alert(message);
+
+            // Crea un nou element <p> i estableix el text amb el missatge
+            const messageElement = document.createElement("p");
+            messageElement.textContent = "Missatge: " + message;
+
+            // Afegeix el nou element dins del contenidor
+            const container = document.getElementById("messageContainer");
+            container.appendChild(messageElement);
+        });
+    });
+</script>
+
+</body>
+</html>
