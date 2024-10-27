@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.provaTardana.demoTardana.DemoTardanaApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-10-27T12:12:40" hostname="DELLCASARM" time="0.895">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.provaTardana.demoTardana.DemoTardanaApplicationTests" time="0.895"/>
+  <system-out><![CDATA[13:12:37.766 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.provaTardana.demoTardana.DemoTardanaApplicationTests]: DemoTardanaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:12:37.942 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.provaTardana.demoTardana.DemoTardanaApplication for test class com.provaTardana.demoTardana.DemoTardanaApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-10-27T13:12:38.646+01:00  INFO 20316 --- [demoTardana] [    Test worker] c.p.d.DemoTardanaApplicationTests        : Starting DemoTardanaApplicationTests using Java 17.0.12 with PID 20316 (started by rmirm in C:\Users\rmirm\Documents\demoTardana)
+2024-10-27T13:12:38.648+01:00  INFO 20316 --- [demoTardana] [    Test worker] c.p.d.DemoTardanaApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-10-27T13:12:40.179+01:00  INFO 20316 --- [demoTardana] [    Test worker] c.p.d.DemoTardanaApplicationTests        : Started DemoTardanaApplicationTests in 1.896 seconds (process running for 3.559)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
